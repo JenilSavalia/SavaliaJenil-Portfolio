@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@font-face {
+     font-family: 'Hanson';
+     src: local('Hanson Bold'),
+          url('../src/assets/fonts/hanson-bold.ttf') format('truetype');
+     font-weight: 700;
+     font-style: normal;
+}
+
+
+@font-face {
+     font-family: 'Gilroy';
+     src: local('Gilroy ExtraBold'),
+          url('../src/assets/fonts/Gilroy-ExtraBold.otf') format('opentype');
+     font-weight: 300;
+     /* ExtraBold is usually 800 */
+     font-style: normal;
+}
