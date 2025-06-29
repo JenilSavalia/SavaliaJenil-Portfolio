@@ -6,6 +6,7 @@ import { ChevronRight } from 'lucide-react';
 import Experience from '../Experience';
 import Education from '../Education';
 import Footer from '../Footer';
+import Achievements from './Achievements';
 
 
 const AboutMe = () => {
@@ -65,6 +66,11 @@ const AboutMe = () => {
         <div className='p-7 bg-gradient-to-l from-slate-50 to-lime-50 border-b-1 hover:bg-gradient-to-r duration-1000'>
           <h1 className='text-3xl text-gray-700 pb-8' style={{ fontFamily: 'Hanson, sans-serif', fontWeight: 800 }}>Experience</h1>
           <Experience />
+        </div>
+
+        <div className='p-7 bg-gradient-to-l from-slate-50 to-lime-50 border-b-1 hover:bg-gradient-to-r duration-1000'>
+          <h1 className='text-3xl text-gray-700 pb-8' style={{ fontFamily: 'Hanson, sans-serif', fontWeight: 800 }}>Achievements</h1>
+          <Achievements />
         </div>
 
         <Footer />

@@ -57,7 +57,7 @@ export const Projects = [
     {
         Name: "Student Management Portal",
         Description: "Create Student Groups,Assign Tasks , Role Based System",
-        keyPoints: ["Role Based Access", "Admin Panel", "Create Group,Assign Tasks"],
+        keyPoints: ["Role Based Access", "Admin Panel"],
         Tags: ["RBAS", "MongoDb", "ReactJs"],
         FeatureImage: "https://res.cloudinary.com/db1eybiaj/image/upload/v1743413786/f8igkios0itrhirsrkgo.png",
         github: "https://github.com/codinggita/codinggita_student_portal",

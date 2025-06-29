@@ -47,7 +47,7 @@ const LandingPage = () => {
                     </HeroHighlight>
                 </div>
 
-                <div className='flex flex-wrap border-b-1 w-full bg-amber-50 p-20 items-center justify-center'>
+                <div className='flex flex-wrap w-full bg-amber-50 p-20 items-center justify-center'>
 
                     <div>
                         <h1 style={{ fontFamily: 'Manrope, sans-serif', fontWeight: 460 }} className='text-3xl max-[570px]:text-xl max-[370px]:w-full cursor-pointer bg-[#F6D663] p-1 m-4 w-fit hover:shadow-xl hover:shadow-amber-300/50 shadow-2xl hover:scale-110 transition-discrete duration-300'>Full Stack Developer</h1>
@@ -89,6 +89,19 @@ const LandingPage = () => {
                         </div>
                     </a>
                 </div>
+
+
+
+                <div className='p-7 bg-gradient-to-l from-slate-50 to-lime-50 border-y-b hover:bg-gradient-to-r duration-1000'>
+                    <h1 className='text-3xl text-gray-700 pb-8' style={{ fontFamily: 'Hanson, sans-serif', fontWeight: 800 }}>Experience</h1>
+                    <Experience />
+                </div>
+
+                <div className='p-7 bg-gradient-to-l from-slate-50 to-orange-50 border-y-1 hover:bg-gradient-to-r duration-1000'>
+                    <h1 className='text-3xl text-gray-700 pb-8' style={{ fontFamily: 'Hanson, sans-serif', fontWeight: 800 }}>📗Education</h1>
+                    <Education />
+                </div>
+
 
                 <div className='p-7'>
                     <h1 className='text-3xl text-gray-700 pb-8' style={{ fontFamily: 'Hanson, sans-serif', fontWeight: 800 }}>My Skill Set</h1>
@@ -182,15 +195,6 @@ const LandingPage = () => {
                 </div>
 
 
-                <div className='p-7 bg-gradient-to-l from-slate-50 to-orange-50 border-y-1 hover:bg-gradient-to-r duration-1000'>
-                    <h1 className='text-3xl text-gray-700 pb-8' style={{ fontFamily: 'Hanson, sans-serif', fontWeight: 800 }}>📗Education</h1>
-                    <Education />
-                </div>
-
-                <div className='p-7 bg-gradient-to-l from-slate-50 to-lime-50 border-b-1 hover:bg-gradient-to-r duration-1000'>
-                    <h1 className='text-3xl text-gray-700 pb-8' style={{ fontFamily: 'Hanson, sans-serif', fontWeight: 800 }}>Experience</h1>
-                    <Experience />
-                </div>
 
                 <div className='p-8 flex flex-wrap justify-around'>
                     <h1 className='text-5xl text-gray-700 pb-8 mt-5 max-[632px]:text-2xl' style={{ fontFamily: 'Hanson, sans-serif', fontWeight: 800 }}>CONTACT ME</h1>
